@@ -33,6 +33,11 @@ npm install express
 npm install -g bower
 bower install bootstrap
 
+# Install Heroku
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+heroku login
+ssh-keygen -t rsa
+heroku keys:add
 
 
 # git pull and install dotfiles as well
